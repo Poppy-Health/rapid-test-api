@@ -9,7 +9,32 @@ Documentation for the Rapid Test API
 - **did0** - Device #1 ID (32-bit signed int) 
 - **did1** - Device #2 ID (32-bit signed int) 
 - **did2** - Device #3 ID (32-bit signed int) 
-- **did3** - Device #4 ID (32-bit signed int) 
+- **did3** - Device #4 ID (32-bit signed int)
+- **result0** - Volumetric airflow result from Device #1 (float) a value of -1 indicates no result
+- **result1** - Volumetric airflow result from Device #2 (float) a value of -1 indicates no result
+- **result2** - Volumetric airflow result from Device #3 (float) a value of -1 indicates no result
+- **result3** - Volumetric airflow result from Device #4 (float) a value of -1 indicates no result
+- **each** - eACH result from test (float) a value of -1 indicates no eACH was calculated, eACH values will change during active tests
+- **target** - Target airflow per person
+- **start** - (UTC Timezone datetime)
+- **background_end** - (UTC Timezone datetime)
+- **diffusion_end** - (UTC Timezone datetime)
+- **settling_end** - (UTC Timezone datetime)
+- **stop** - (UTC Timezone datetime)
+- **zone** -
+- **email** -
+- **hvac** -
+- **configuration** -
+- **notes** -
+- **owner** -
+- **org** -
+- **status** -
+- **errorcode** -
+- **device[0-4]** - (Object)
+- - **rid** -
+  - **did** -
+  - **tid** -
+  - 
 
 ## Device fields:
 
