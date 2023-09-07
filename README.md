@@ -31,10 +31,23 @@ Documentation for the Rapid Test API
 - **status** -
 - **errorcode** -
 - **device[0-4]** - (Object)
-- - **rid** -
+  - **rid** -
   - **did** -
   - **tid** -
-  - 
+  - **background_e1** -
+  - **background_e2** -
+  - **background_e3** -
+  - **background_pc1** -
+  - **x3_time_e1** -
+  - **x3_time_e2** -
+  - **x3_time_e3** -
+  - **x3_time_pc1** -
+  - **background_return_e1** -
+  - **background_return_e2** -
+  - **background_return_e3** -
+  - **background_return_pc1** -
+  - **model** -
+  - **errorcode** -    
 
 ## Device fields:
 
